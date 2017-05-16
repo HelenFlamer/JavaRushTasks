@@ -14,56 +14,49 @@ public class Solution {
 
     public static boolean isNormalLockOrder(final Solution solution, final Object o1, final Object o2) throws Exception {
         //do something here
-        Thread thread1 = new Thread() {
+        Thread thread1 = new Thread(){
             @Override
-            public void run() {
+            public void run(){
                 synchronized (o1){
                     try {
-                        Thread.sleep(3000);
+                        Thread.sleep(5000);
                     } catch (InterruptedException e) {
-
                     }
                 }
             }
         };
-        Thread thread2 = new Thread() {
+        Thread thread2 = new Thread(){
             @Override
-            public void run() {
+            public void run(){
                 synchronized (o2){
                     try {
-                        Thread.sleep(3000);
+                        Thread.sleep(5000);
                     } catch (InterruptedException e) {
-
                     }
                 }
             }
         };
-        Thread thread3 = new Thread() {
+        Thread thread3 = new Thread(){
             @Override
-            public void run() {
-                solution.someMethodWithSynchronizedBlocks(o1, o2);
+            public void run(){
+                solution.someMethodWithSynchronizedBlocks(o1,o2);
             }
         };
+        thread1.start();
+        Thread.sleep(1000);
+        thread3.start();
+        Thread.sleep(1000);
+        thread2.start();
+        Thread.sleep(1000);
 
-        synchronized (o1) {
-            thread1.start();
-            Thread.sleep(1000);
-            thread3.start();
-            Thread.sleep(1000);
-            thread2.start();
-            Thread.sleep(1000);
-
-
-            System.out.println(thread2.getState());
-            return thread2.getState().equals(Thread.State.TIMED_WAITING);
-        }
-
+        return thread2.getState().equals(Thread.State.TIMED_WAITING);
     }
 
     public static void main(String[] args) throws Exception {
         final Solution solution = new Solution();
         final Object o1 = new Object();
         final Object o2 = new Object();
+
         System.out.println(isNormalLockOrder(solution, o1, o2));
     }
 }
