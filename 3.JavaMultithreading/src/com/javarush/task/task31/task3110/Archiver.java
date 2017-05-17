@@ -23,7 +23,7 @@ public class Archiver {
 
 
     public static Operation askOperation() throws IOException {
-        ConsoleHelper.writeMessage("");
+
         ConsoleHelper.writeMessage("Выберите операцию:");
         ConsoleHelper.writeMessage(String.format("\t %d - упаковать файлы в архив", Operation.CREATE.ordinal()));
         ConsoleHelper.writeMessage(String.format("\t %d - добавить файл в архив", Operation.ADD.ordinal()));
