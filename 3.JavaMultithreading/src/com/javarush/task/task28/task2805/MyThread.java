@@ -1,56 +1,125 @@
 package com.javarush.task.task28.task2805;
 
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Created by elena.slinkova on 31.05.2017.
+ * Created by elena.slinkova on 05.06.2017.
  * MyThread должен:
- 1. Иметь возможность быть созданным используя любой конструктор супер-класса (Alt+Insert).
- 2. Приоритет у трэдов должен проставляться циклично от минимального значения до максимального значения.
- 3. если у трэда установлена трэд-группа(ThreadGroup), то приоритет трэда не может быть больше максимального приоритета его трэд-группы.
-
-
+ * 2. Приоритет у трэдов должен проставляться циклично от минимального значения до максимального значения.
+ * 3. если у трэда установлена трэд-группа(ThreadGroup), то приоритет трэда не может быть больше максимального приоритета его трэд-группы.
  */
 public class MyThread extends Thread {
-    private int priority = 0;
+    static AtomicInteger num = new AtomicInteger(1);
 
     public MyThread() {
+        if (num.get() < 10)
+            this.setPriority(num.getAndIncrement());
+        else {
+            this.setPriority(10);
+            num.set(1);
+        }
     }
 
     public MyThread(Runnable target) {
         super(target);
-        if (priority == 10)
-            priority = 0;
-        Thread.currentThread().setPriority(priority++);
-        if (Thread.currentThread().getThreadGroup() != null)
-            Thread.currentThread().setPriority(currentThread().getThreadGroup().getMaxPriority());
+        if (num.get() < 10)
+            this.setPriority(num.getAndIncrement());
+        else {
+            this.setPriority(10);
+            num.set(1);
+        }
     }
 
     public MyThread(ThreadGroup group, Runnable target) {
         super(group, target);
-        if (priority == 10)
-            priority = 0;
-        Thread.currentThread().setPriority(priority++);
-        if (Thread.currentThread().getThreadGroup() != null)
-            Thread.currentThread().setPriority(currentThread().getThreadGroup().getMaxPriority());
+        if (num.get() < 10) {
+            if (num.get() < group.getMaxPriority()) {
+                this.setPriority(num.getAndIncrement());
+            } else {
+                this.setPriority(group.getMaxPriority());
+                num.getAndIncrement();
+            }
+        } else {
+            if (num.get() > group.getMaxPriority())
+                this.setPriority(group.getMaxPriority());
+            else
+               this.setPriority(10);
+            num.set(1);
+        }
+
     }
 
     public MyThread(String name) {
         super(name);
+        if (num.get() < 10)
+            this.setPriority(num.getAndIncrement());
+        else {
+            this.setPriority(10);
+            num.set(1);
+        }
     }
 
     public MyThread(ThreadGroup group, String name) {
         super(group, name);
+        if (num.get() < 10) {
+            if (num.get() < group.getMaxPriority()) {
+               this.setPriority(num.getAndIncrement());
+            } else {
+                this.setPriority(group.getMaxPriority());
+                num.getAndIncrement();
+            }
+        } else {
+            if (num.get() > group.getMaxPriority())
+                this.setPriority(group.getMaxPriority());
+            else
+                this.setPriority(10);
+            num.set(1);
+        }
     }
 
     public MyThread(Runnable target, String name) {
         super(target, name);
+        if (num.get() < 10)
+            this.setPriority(num.getAndIncrement());
+        else {
+            this.setPriority(10);
+            num.set(1);
+        }
     }
 
     public MyThread(ThreadGroup group, Runnable target, String name) {
         super(group, target, name);
+        if (num.get() < 10) {
+            if (num.get() < group.getMaxPriority()) {
+                this.setPriority(num.getAndIncrement());
+            } else {
+                this.setPriority(group.getMaxPriority());
+                num.getAndIncrement();
+            }
+        } else {
+            if (num.get() > group.getMaxPriority())
+                this.setPriority(group.getMaxPriority());
+            else
+                this.setPriority(10);
+            num.set(1);
+        }
     }
 
     public MyThread(ThreadGroup group, Runnable target, String name, long stackSize) {
         super(group, target, name, stackSize);
+        if (num.get() < 10) {
+            if (num.get() < group.getMaxPriority()) {
+                this.setPriority(num.getAndIncrement());
+            } else {
+                this.setPriority(group.getMaxPriority());
+                num.getAndIncrement();
+            }
+        } else {
+            if (num.get() > group.getMaxPriority())
+                this.setPriority(group.getMaxPriority());
+            else
+                this.setPriority(10);
+            num.set(1);
+        }
     }
 }
