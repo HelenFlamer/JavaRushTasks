@@ -1,34 +1,40 @@
 package com.javarush.task.task35.task3513;
 
-import java.io.FileReader;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
-/**
- * Created by elena.slinkova on 23.06.2017.
- * Для каждого ряда или столбца, происходят на самом деле две вещи:
- * а) Сжатие плиток, таким образом, чтобы все пустые плитки были справа, т.е. ряд {4, 2, 0, 4} становится рядом {4, 2, 4, 0}
- * б) Слияние плиток одного номинала, т.е. ряд {4, 4, 2, 0} становится рядом {8, 2, 0, 0}.
- * <p>
- * Создай методы compressTiles(Tile[] tiles) и mergeTiles(Tile[] tiles), которые будут реализовывать пункты а) и б) соответственно.
- * Использовать мы их будем только внутри класса Model, поэтому уровень доступа сделай максимально узким.
- * <p>
- * Также добавь поля score и maxTile типа int, которые должны хранить текущий счет и максимальный вес плитки на игровом поле.
- * Счет увеличивается после каждого слияния, например если текущий счет 20 и было выполнено слияние ряда {4, 4, 4, 0}, счет должен увеличиться на 8.
- * Уровень доступа к полям должен быть шире приватного.
- * Проще всего организовать обновление значений этих полей в методе mergeTiles, например так:
- * 1. Если выполняется условие слияния плиток, проверяем является ли новое значения больше максимального и при необходимости меняем значение поля maxTile.
- * 2. Увеличиваем значение поля score на величину веса плитки образовавшейся в результате слияния.
- * <p>
- * P.S. Когда мы будем реализовывать методы движения, сжатие будет всегда выполнено перед слиянием, таким образом можешь считать, что в метод mergeTiles всегда передается массив плиток без пустых в середине.
- */
 public class Model {
     private static final int FIELD_WIDTH = 4;
     private Tile[][] gameTiles = new Tile[FIELD_WIDTH][FIELD_WIDTH];
     protected int score = 0;
     protected int maxTile = 2;
+    private Stack previousStates = new Stack();
+    private Stack previousScores = new Stack();
+    private boolean isSaveNeeded = true;
 
+    private void saveState(Tile[][] tile){
+        Tile[][] newTile = new Tile[FIELD_WIDTH][FIELD_WIDTH];
+        for(int i = 0; i < tile.length; i++){
+            for(int j = 0; j < tile[i].length; j++){
+                newTile[i][j] = new Tile(tile[i][j].value);
+            }
+        }
+        previousStates.push(newTile);
+        previousScores.push(score);
+        isSaveNeeded = false;
+    }
+
+    public void rollback(){
+        if (!previousStates.empty() && !previousScores.empty()) {
+            gameTiles = (Tile[][]) previousStates.pop();
+            score = (int) previousScores.pop();
+        }
+    }
+
+    public Tile[][] getGameTiles() {
+        return gameTiles;
+    }
 
     public Model() {
         resetGameTiles();
@@ -99,6 +105,8 @@ public class Model {
     }
 
     public void left(){
+        if (isSaveNeeded)
+        saveState(gameTiles);
         boolean isCompressed = false;
         boolean isMerged = false;
 
@@ -108,9 +116,11 @@ public class Model {
         }
         if (isCompressed || isMerged)
             addTile();
+        isSaveNeeded = true;
     }
 
     public void up(){
+        saveState(gameTiles);
         turnLeft();
         left();
         turnLeft();
@@ -119,6 +129,7 @@ public class Model {
     }
 
     public void right(){
+        saveState(gameTiles);
         turnLeft();
         turnLeft();
         left();
@@ -127,6 +138,7 @@ public class Model {
     }
 
     public void down(){
+        saveState(gameTiles);
         turnLeft();
         turnLeft();
         turnLeft();
@@ -145,6 +157,24 @@ public class Model {
 
 
 
+    }
+
+    public boolean canMove(){
+        if (!getEmptyTiles().isEmpty())
+            return true;
+        for (int i = 0; i < gameTiles.length; i++) {
+            for (int j = 1; j < gameTiles.length; j++) {
+                if (gameTiles[i][j].value == gameTiles[i][j - 1].value)
+                    return true;
+            }
+        }
+        for (int j = 0; j < gameTiles.length; j++) {
+            for (int i = 1; i < gameTiles.length; i++) {
+                if (gameTiles[i][j].value == gameTiles[i - 1][j].value)
+                    return true;
+            }
+        }
+        return false;
     }
 
 }
