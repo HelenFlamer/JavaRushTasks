@@ -21,6 +21,8 @@ import java.security.Key;
  * 5. В самом конце, вызови метод repaint у view.
  * <p>
  * P.S. Для получения кода нажатой клавиши используй метод getKeyCode класса KeyEvent.
+ *      После реализации метода autoMove добавим его вызов в метод keyPressed класса Controller по нажатию на клавишу A (код — KeyEvent.VK_A).
+
  */
 public class Controller extends KeyAdapter {
     private Model model;
@@ -68,6 +70,10 @@ public class Controller extends KeyAdapter {
                 model.down();
             else if (event.getKeyCode() == KeyEvent.VK_Z)
                 model.rollback();
+            else if (event.getKeyCode() == KeyEvent.VK_R)
+                model.randomMove();
+            else if (event.getKeyCode() == KeyEvent.VK_A)
+                model.autoMove();
         }
         if (model.maxTile == WINNING_TILE)
             view.isGameWon = true;
