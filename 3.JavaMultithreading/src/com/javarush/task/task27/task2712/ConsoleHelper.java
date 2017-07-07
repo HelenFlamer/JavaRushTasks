@@ -38,15 +38,21 @@ public class ConsoleHelper {
             writeMessage(dish.name());
         writeMessage("Please enter dish name");
         List<Dish> orderList = new ArrayList<>();
+        boolean isOrderDishInMenu = false;
         while (true) {
             String orderedDish = readString();
             if (orderedDish.equals("exit"))
                 break;
-            for (Dish dish : Dish.values())
-                if (orderedDish.equals(dish.name()))
+
+            for (Dish dish : Dish.values()) {
+                if (dish.name().equalsIgnoreCase(orderedDish)) {
                     orderList.add(dish);
-                else
-                    writeMessage("No such dish in menu");
+                    isOrderDishInMenu = true;
+                }
+            }
+            if (!isOrderDishInMenu)
+                writeMessage("No such dish in menu");
+
         }
         return orderList;
     }

@@ -1,6 +1,8 @@
 package com.javarush.task.task31.task3101;
 
-import java.io.File;
+import java.io.*;
+import java.nio.file.Files;
+import java.util.*;
 
 /*
 Проход по дереву файлов
@@ -16,9 +18,53 @@ import java.io.File;
 */
 public class Solution {
     public static void main(String[] args) {
+        File source = new File(args[1]);
+        File destination = new File(source.getParent() + "/allFilesContent.txt");
+        FileUtils.renameFile(source, destination);      //переименовываем файл
+        FileOutputStream fos = null;   //создает поток
+        FileInputStream fis = null;
+        try {
+            fos = new FileOutputStream(destination);
+
+            TreeSet<File> list = new TreeSet<>();    //упорядоченный список для сортировки
+            Stack<File> stack = new Stack<>();       //заполняем список
+            stack.push(new File(args[0]));
+            while (!stack.isEmpty()) {
+                File child = stack.pop();
+                if (child.isDirectory()) {
+                    for (File f : child.listFiles()) stack.push(f);
+                } else if (child.isFile()) {
+                    long fileSize = Files.size(child.toPath());
+                    if (fileSize > 50) {
+                        FileUtils.deleteFile(new File(child.getPath()));
+                    } else {
+                        list.add(new File(child.getPath()));
+                    }
+                }
+            }
+            for (File f : list) {
+                fis = new FileInputStream(f);
+                byte[] bytes = new byte[fis.available()];
+                fis.read(bytes);
+                fos.write(bytes);
+                fos.write("\n".getBytes());
+            }
+            fos.close();
+            fis.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            try {
+                fos.close();
+                fis.close();
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
 
 
+        }
     }
+
 
     public static void deleteFile(File file) {
         if (!file.delete()) System.out.println("Can not delete file with name " + file.getName());
