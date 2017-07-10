@@ -1,12 +1,18 @@
 package com.javarush.task.task31.task3113;
 
-import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.nio.file.*;
+import java.nio.file.attribute.BasicFileAttributes;
+
+import static java.nio.file.FileVisitResult.CONTINUE;
 
 /* 
 Что внутри папки?
+Напиши программу, которая будет считать подробную информацию о папке и выводить ее на консоль.
+
 Первым делом считай путь к папке с консоли.
 Если введенный путь не является директорией — выведи «[полный путь] — не папка» и заверши работу.
 Затем посчитай и выведи следующую информацию:
@@ -20,33 +26,42 @@ import java.nio.file.Paths;
 Квадратные скобки [ ] выводить на экран не нужно.
 */
 public class Solution {
+    static long totalFolders = 0;
+    static long totalFiles = 0;
+    static long totalSize = 0;
 
     public static void main(String[] args) throws IOException {
-        int fileNum = 0;
-        int dirNum = 0;
-        long size = 0;
+
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String path = reader.readLine();
-        Path filePath = Paths.get(path);
+        Path path = Paths.get(reader.readLine());
 
-        if (!Files.isDirectory(filePath)) {
-            System.out.println(path + " - не папка");
+
+        if (!Files.isDirectory(path)){
+            System.out.println(path.toAbsolutePath().toAbsolutePath() + " - не папка");
             reader.close();
-            System.exit(1);
-        }
-        for (File file : new File(path).listFiles()){
-            if (file.isFile()){
-                fileNum++;
-                size+=file.length();
-            }
-            else if (file.isDirectory()) {
-                dirNum++;
-            }
+            return;
         }
 
-        System.out.println("Всего файлов - " + fileNum);
-        System.out.println("Всего папок - " + dirNum);
-        System.out.println("Общий размер - " + size);
+        Files.walkFileTree(path, new Visitior());
 
+        System.out.println("Всего папок - " + (totalFolders-1));
+        System.out.println("Всего файлов - " + totalFiles);
+        System.out.println("Общий размер - " + totalSize);
+
+    }
+
+    private static class Visitior extends SimpleFileVisitor<Path> {
+        @Override
+        public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
+            totalFolders += 1;
+            return CONTINUE;
+        }
+
+        @Override
+        public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+            totalFiles += 1;
+            totalSize = totalSize + attrs.size();
+            return CONTINUE;
+        }
     }
 }
