@@ -108,9 +108,13 @@ public class Tetris {
     }
 
     public static Tetris game;
+    public static GameLevel LEVEL;
 
     public static void main(String[] args) throws Exception {
+        //TODO сделать возможность выбора уровня сложности
+        //TODO возможно менять размер поля в зависимости от уровня сложности???
         game = new Tetris(10, 20);
+        LEVEL = GameLevel.LEVEl_HARD;
         game.run();
     }
 }
