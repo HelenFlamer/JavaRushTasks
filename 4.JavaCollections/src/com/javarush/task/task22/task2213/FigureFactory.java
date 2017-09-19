@@ -83,9 +83,9 @@ public class FigureFactory {
      */
     public static Figure createRandomFigure(int x, int y) {
         int index;
-        if (Tetris.LEVEL.equals(GameLevel.LEVEL_EASY))
+        if (Tetris.LEVEL.equals(Parameters.GameLevel.LEVEL_EASY))
             index = (int) (Math.random() * 7);
-        else if (Tetris.LEVEL.equals(GameLevel.LEVEL_MEDIUM))
+        else if (Tetris.LEVEL.equals(Parameters.GameLevel.LEVEL_MEDIUM))
             index = (int) (Math.random() * 11);
         else
             index = (int) (Math.random() * 15);

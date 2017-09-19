@@ -9,12 +9,16 @@ public class Tetris {
 
     private Field field;                //Поле с клетками
     private Figure figure;              //Фигурка
+    private Controller controller;
+    private int gameSpeed;
 
-    private boolean isGameOver;         //Игра Окончена?
+
+    public static boolean isGameOver;         //Игра Окончена?
 
     public Tetris(int width, int height) {
         field = new Field(width, height);
         figure = null;
+        controller = new Controller(figure, field);
     }
 
     /**
@@ -29,6 +33,47 @@ public class Tetris {
      */
     public Figure getFigure() {
         return figure;
+    }
+
+    /**
+     * Геттер переменной isGameOver.
+     */
+    public boolean isGameOver() {
+        return isGameOver;
+    }
+
+    /**
+     * Сеттер для figure
+     */
+    public void setFigure(Figure figure) {
+        this.figure = figure;
+    }
+
+    /**
+     * Сеттер для field
+     */
+    public void setField(Field field) {
+        this.field = field;
+    }
+
+    public static Tetris game;
+    public static Parameters.GameLevel LEVEL;
+
+    public void step() {
+        //опускаем фигурку вниз
+        figure.down();
+
+        //если разместить фигурку на текущем месте невозможно
+        if (!figure.isCurrentPositionAvailable()) {
+            figure.up();                    //поднимаем обратно
+            figure.landed();                //приземляем
+
+            isGameOver = figure.getY() <= 1;//если фигурка приземлилась на самом верху - игра окончена
+
+            field.removeFullLines();        //удаляем заполненные линии
+
+            figure = FigureFactory.createRandomFigure(field.getWidth() / 2, 0); //создаем новую фигурку
+        }
     }
 
     /**
@@ -76,45 +121,12 @@ public class Tetris {
         System.out.println("Game Over");
     }
 
-    public void step() {
-        //опускаем фигурку вниз
-        figure.down();
-
-        //если разместить фигурку на текущем месте невозможно
-        if (!figure.isCurrentPositionAvailable()) {
-            figure.up();                    //поднимаем обратно
-            figure.landed();                //приземляем
-
-            isGameOver = figure.getY() <= 1;//если фигурка приземлилась на самом верху - игра окончена
-
-            field.removeFullLines();        //удаляем заполненные линии
-
-            figure = FigureFactory.createRandomFigure(field.getWidth() / 2, 0); //создаем новую фигурку
-        }
-    }
-
-    /**
-     * Сеттер для figure
-     */
-    public void setFigure(Figure figure) {
-        this.figure = figure;
-    }
-
-    /**
-     * Сеттер для field
-     */
-    public void setField(Field field) {
-        this.field = field;
-    }
-
-    public static Tetris game;
-    public static GameLevel LEVEL;
 
     public static void main(String[] args) throws Exception {
         //TODO сделать возможность выбора уровня сложности
         //TODO возможно менять размер поля в зависимости от уровня сложности???
+        LEVEL = Parameters.GameLevel.LEVEl_HARD;
         game = new Tetris(10, 20);
-        LEVEL = GameLevel.LEVEl_HARD;
         game.run();
     }
 }
