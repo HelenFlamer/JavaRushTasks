@@ -1,11 +1,13 @@
 package com.javarush.task.task22.task2213;
 
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.KeyEvent;
 
 /**
  * Класс Tetris - содержит основной функционал игры.
  */
-public class Tetris {
+public class Tetris extends JPanel{
 
     private Field field;                //Поле с клетками
     private Figure figure;              //Фигурка
@@ -81,6 +83,16 @@ public class Tetris {
      * Тут происходят все важные действия
      */
     public void run() throws Exception {
+        well = new Color[12][24];
+        for (int i = 0; i < 12; i++) {
+            for (int j = 0; j < 23; j++) {
+                if (i == 0 || i == 11 || j == 22) {
+                    well[i][j] = Color.GRAY;
+                } else {
+                    well[i][j] = Color.BLACK;
+                }
+            }
+        }
         //Создаем объект "наблюдатель за клавиатурой" и стартуем его.
         KeyboardObserver keyboardObserver = new KeyboardObserver();
         keyboardObserver.start();
@@ -125,8 +137,47 @@ public class Tetris {
     public static void main(String[] args) throws Exception {
         //TODO сделать возможность выбора уровня сложности
         //TODO возможно менять размер поля в зависимости от уровня сложности???
+
+        JFrame f = new JFrame("Tetris");
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setSize(10*26+10, 26*20+25);
+        f.setVisible(true);
+
         LEVEL = Parameters.GameLevel.LEVEl_HARD;
         game = new Tetris(10, 20);
+        f.add(game);
         game.run();
+
     }
+
+    // Draw the falling piece
+    private void drawPiece(Graphics g) {
+        g.setColor(Color.cyan);
+            g.fillRect((figure.getX()) * 26,
+                    (figure.getY()) * 26,
+                    25, 25);
+
+    }
+
+    private Color[][] well;
+    @Override
+    public void paintComponent(Graphics g)
+    {
+        // Paint the well
+        g.fillRect(0, 0, 26*10, 26*20);
+        for (int i = 0; i < 12; i++) {
+            for (int j = 0; j < 23; j++) {
+                g.setColor(well[i][j]);
+                g.fillRect(26*i, 26*j, 25, 25);
+            }
+        }
+
+        // Display the score
+        g.setColor(Color.WHITE);
+        //g.drawString("" + score, 19*12, 25);
+
+        // Draw the currently falling piece
+        drawPiece(g);
+    }
+
 }
