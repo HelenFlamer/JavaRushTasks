@@ -38,7 +38,7 @@ public class Figure {
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                matrix2[i][j] = matrix[j][i];
+                matrix2[i][j] = matrix[matrix.length - j - 1][i];
             }
         }
 

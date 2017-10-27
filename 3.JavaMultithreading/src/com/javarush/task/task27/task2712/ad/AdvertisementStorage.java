@@ -36,9 +36,9 @@ public class AdvertisementStorage {
         return instance;
     }
 
-    private final List<Object> videos = new ArrayList();
+    private final List<Advertisement> videos = new ArrayList();
 
-    public List<Object> list(){
+    public List<Advertisement> list(){
         return videos;
     }
 

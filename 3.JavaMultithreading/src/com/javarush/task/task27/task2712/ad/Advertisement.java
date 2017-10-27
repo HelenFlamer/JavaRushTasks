@@ -22,6 +22,10 @@ public class Advertisement {
         this.amountPerOneDisplaying = initialAmount / hits;
     }
 
+    public int getHits() {
+        return hits;
+    }
+
     public String getName() {
         return name;
     }

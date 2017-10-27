@@ -1,20 +1,26 @@
 package com.javarush.task.task22.task2213;
 
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.KeyEvent;
 
 /**
  * Класс Tetris - содержит основной функционал игры.
  */
-public class Tetris {
+public class Tetris extends JPanel{
 
     private Field field;                //Поле с клетками
     private Figure figure;              //Фигурка
+    private Controller controller;
+    private int gameSpeed;
 
-    private boolean isGameOver;         //Игра Окончена?
+
+    public static boolean isGameOver;         //Игра Окончена?
 
     public Tetris(int width, int height) {
         field = new Field(width, height);
         figure = null;
+        controller = new Controller(figure, field);
     }
 
     /**
@@ -32,10 +38,61 @@ public class Tetris {
     }
 
     /**
+     * Геттер переменной isGameOver.
+     */
+    public boolean isGameOver() {
+        return isGameOver;
+    }
+
+    /**
+     * Сеттер для figure
+     */
+    public void setFigure(Figure figure) {
+        this.figure = figure;
+    }
+
+    /**
+     * Сеттер для field
+     */
+    public void setField(Field field) {
+        this.field = field;
+    }
+
+    public static Tetris game;
+    public static Parameters.GameLevel LEVEL;
+
+    public void step() {
+        //опускаем фигурку вниз
+        figure.down();
+
+        //если разместить фигурку на текущем месте невозможно
+        if (!figure.isCurrentPositionAvailable()) {
+            figure.up();                    //поднимаем обратно
+            figure.landed();                //приземляем
+
+            isGameOver = figure.getY() <= 1;//если фигурка приземлилась на самом верху - игра окончена
+
+            field.removeFullLines();        //удаляем заполненные линии
+
+            figure = FigureFactory.createRandomFigure(field.getWidth() / 2, 0); //создаем новую фигурку
+        }
+    }
+
+    /**
      * Основной цикл программы.
      * Тут происходят все важные действия
      */
     public void run() throws Exception {
+        well = new Color[12][24];
+        for (int i = 0; i < 12; i++) {
+            for (int j = 0; j < 23; j++) {
+                if (i == 0 || i == 11 || j == 22) {
+                    well[i][j] = Color.GRAY;
+                } else {
+                    well[i][j] = Color.BLACK;
+                }
+            }
+        }
         //Создаем объект "наблюдатель за клавиатурой" и стартуем его.
         KeyboardObserver keyboardObserver = new KeyboardObserver();
         keyboardObserver.start();
@@ -76,41 +133,51 @@ public class Tetris {
         System.out.println("Game Over");
     }
 
-    public void step() {
-        //опускаем фигурку вниз
-        figure.down();
-
-        //если разместить фигурку на текущем месте невозможно
-        if (!figure.isCurrentPositionAvailable()) {
-            figure.up();                    //поднимаем обратно
-            figure.landed();                //приземляем
-
-            isGameOver = figure.getY() <= 1;//если фигурка приземлилась на самом верху - игра окончена
-
-            field.removeFullLines();        //удаляем заполненные линии
-
-            figure = FigureFactory.createRandomFigure(field.getWidth() / 2, 0); //создаем новую фигурку
-        }
-    }
-
-    /**
-     * Сеттер для figure
-     */
-    public void setFigure(Figure figure) {
-        this.figure = figure;
-    }
-
-    /**
-     * Сеттер для field
-     */
-    public void setField(Field field) {
-        this.field = field;
-    }
-
-    public static Tetris game;
 
     public static void main(String[] args) throws Exception {
+        //TODO сделать возможность выбора уровня сложности
+        //TODO возможно менять размер поля в зависимости от уровня сложности???
+
+        JFrame f = new JFrame("Tetris");
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setSize(10*26+10, 26*20+25);
+        f.setVisible(true);
+
+        LEVEL = Parameters.GameLevel.LEVEl_HARD;
         game = new Tetris(10, 20);
+        f.add(game);
         game.run();
+
     }
+
+    // Draw the falling piece
+    private void drawPiece(Graphics g) {
+        g.setColor(Color.cyan);
+            g.fillRect((figure.getX()) * 26,
+                    (figure.getY()) * 26,
+                    25, 25);
+
+    }
+
+    private Color[][] well;
+    @Override
+    public void paintComponent(Graphics g)
+    {
+        // Paint the well
+        g.fillRect(0, 0, 26*10, 26*20);
+        for (int i = 0; i < 12; i++) {
+            for (int j = 0; j < 23; j++) {
+                g.setColor(well[i][j]);
+                g.fillRect(26*i, 26*j, 25, 25);
+            }
+        }
+
+        // Display the score
+        g.setColor(Color.WHITE);
+        //g.drawString("" + score, 19*12, 25);
+
+        // Draw the currently falling piece
+        drawPiece(g);
+    }
+
 }

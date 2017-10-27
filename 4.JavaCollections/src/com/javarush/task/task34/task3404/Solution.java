@@ -1,0 +1,29 @@
+package com.javarush.task.task34.task3404;
+
+/* 
+Рекурсия для мат. выражения
+*/
+public class Solution {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        solution.recursion("sin(2*(-5+1.5*4)+28)", 0); //expected output 0.5 6
+    }
+
+    public void recursion(final String expression, int countOperation) {
+        //implement
+        for (int i = 0; i < expression.length(); i++) {
+            if (expression.charAt(i) == '(') {
+                System.out.println(expression);
+                int last = expression.lastIndexOf(")");
+                recursion(expression.substring(i + 1, last) +
+                        (last < expression.length() - 1 ? expression.substring(last + 1) : ""), countOperation++);
+            }
+            continue;
+        }
+        System.out.println(countOperation);
+    }
+
+    public Solution() {
+        //don't delete
+    }
+}
