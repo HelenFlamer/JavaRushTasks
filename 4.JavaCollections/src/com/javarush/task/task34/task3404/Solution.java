@@ -11,16 +11,6 @@ public class Solution {
 
     public void recursion(final String expression, int countOperation) {
         //implement
-        for (int i = 0; i < expression.length(); i++) {
-            if (expression.charAt(i) == '(') {
-                System.out.println(expression);
-                int last = expression.lastIndexOf(")");
-                recursion(expression.substring(i + 1, last) +
-                        (last < expression.length() - 1 ? expression.substring(last + 1) : ""), countOperation++);
-            }
-            continue;
-        }
-        System.out.println(countOperation);
     }
 
     public Solution() {
