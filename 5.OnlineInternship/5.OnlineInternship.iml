@@ -12,5 +12,6 @@
     <orderEntry type="library" name="guava-19.0.0" level="project" />
     <orderEntry type="library" name="jackson-annotations-2.9.0" level="project" />
     <orderEntry type="library" name="jsoup-1.11.2-sources" level="project" />
+    <orderEntry type="library" name="powermock-easymock-1.7.1-full" level="project" />
   </component>
 </module>
