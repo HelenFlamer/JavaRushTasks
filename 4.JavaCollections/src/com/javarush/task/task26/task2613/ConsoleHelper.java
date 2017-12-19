@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import static com.javarush.task.task26.task2613.Operation.getAllowableOperationByOrdinal;
+
 public class ConsoleHelper {
 
     private static BufferedReader bis = new BufferedReader(new InputStreamReader(System.in));
@@ -37,30 +39,41 @@ public class ConsoleHelper {
         String[] array;
         writeMessage("enter denomination and count");
 
-        while (true)
-        {
+        while (true) {
             String s = readString();
             array = s.split(" ");
             int k;
             int l;
-            try
-            {
+            try {
                 k = Integer.parseInt(array[0]);
                 l = Integer.parseInt(array[1]);
-            }
-            catch (Exception e)
-            {
+            } catch (Exception e) {
                 writeMessage("invalid data");
                 continue;
             }
-            if (k <= 0 || l <= 0 || array.length > 2)
-            {
+            if (k <= 0 || l <= 0 || array.length > 2) {
                 writeMessage("invalid data");
                 continue;
             }
             break;
         }
         return array;
+    }
+
+    public static Operation askOperation() {
+        writeMessage("Enter operation code");
+        while (true){
+            String code = readString();
+            int num;
+            try{
+                num = Integer.parseInt(code);
+                return getAllowableOperationByOrdinal(num);
+            }
+            catch (Exception e){
+                writeMessage("Invalid code");
+                continue;
+            }
+        }
     }
 
 }
