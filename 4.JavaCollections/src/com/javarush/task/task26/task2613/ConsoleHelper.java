@@ -5,10 +5,13 @@ import com.javarush.task.task26.task2613.exception.InterruptOperationException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ResourceBundle;
 
 import static com.javarush.task.task26.task2613.Operation.getAllowableOperationByOrdinal;
 
 public class ConsoleHelper {
+    private static ResourceBundle res = ResourceBundle.getBundle(CashMachine.class.getPackage().getName() +
+            ".resources.common_en");
 
     private static BufferedReader bis = new BufferedReader(new InputStreamReader(System.in));
 
@@ -29,7 +32,7 @@ public class ConsoleHelper {
     }
 
     public static String askCurrencyCode() throws InterruptOperationException {
-        writeMessage("Enter currency code");
+        writeMessage(res.getString("choose.currency.code"));
         String currencyCode = readString();
         while (currencyCode.length() != 3) {
             writeMessage("Please enter correct currency code");
@@ -42,7 +45,7 @@ public class ConsoleHelper {
 
     public static String[] getValidTwoDigits(String currencyCode) throws InterruptOperationException {
         String[] array;
-        writeMessage("enter denomination and count");
+        writeMessage(res.getString("choose.denomination.and.count.format"));
 
         while (true) {
             String s = readString();
@@ -53,11 +56,11 @@ public class ConsoleHelper {
                 k = Integer.parseInt(array[0]);
                 l = Integer.parseInt(array[1]);
             } catch (Exception e) {
-                writeMessage("invalid data");
+                writeMessage(res.getString("invalid.data"));
                 continue;
             }
             if (k <= 0 || l <= 0 || array.length > 2) {
-                writeMessage("invalid data");
+                writeMessage(res.getString("invalid.data"));
                 continue;
             }
             break;
@@ -66,7 +69,7 @@ public class ConsoleHelper {
     }
 
     public static Operation askOperation() throws InterruptOperationException {
-        writeMessage("Enter operation code");
+        writeMessage(res.getString("choose.operation"));
         while (true){
             String code = readString();
             int num;
@@ -79,6 +82,11 @@ public class ConsoleHelper {
                 continue;
             }
         }
+    }
+
+    public static void printExitMessage(){
+        ConsoleHelper.writeMessage(res.getString("the.end"));
+
     }
 
 }
