@@ -13,5 +13,6 @@
     <orderEntry type="library" name="powermock-easymock-1.7.1-full" level="project" />
     <orderEntry type="library" name="httpcore-4.4.6" level="project" />
     <orderEntry type="library" name="httpclient-osgi-4.3" level="project" />
+    <orderEntry type="library" name="mail" level="project" />
   </component>
 </module>
