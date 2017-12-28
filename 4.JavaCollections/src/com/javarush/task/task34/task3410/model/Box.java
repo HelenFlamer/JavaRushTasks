@@ -9,8 +9,11 @@ public class Box extends CollisionObject implements Movable {
 
     @Override
     public void draw(Graphics graphics) {
-        graphics.setColor(Color.red);
-        graphics.drawRect(this.getX(), this.getY(), this.getWidth(), this.getHeight());
+        graphics.setColor(Color.RED);
+        int newX = getX() - getWidth() / 2;
+        int newY = getY() - getHeight() / 2;
+        graphics.drawRect(newX, newY, getWidth(), getHeight());
+        graphics.fillRect(newX, newY, getWidth(), getHeight());
     }
 
     @Override

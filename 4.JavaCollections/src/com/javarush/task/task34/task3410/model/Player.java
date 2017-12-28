@@ -9,8 +9,11 @@ public class Player extends CollisionObject implements Movable{
 
     @Override
     public void draw(Graphics graphics) {
-        graphics.setColor(Color.yellow);
-        graphics.drawOval(this.getX(), this.getY(), this.getWidth(), this.getHeight());
+        graphics.setColor(Color.BLUE);
+        int newX = getX() - getWidth() / 2;
+        int newY = getY() - getHeight() / 2;
+        graphics.drawOval(newX, newY, this.getWidth(), this.getHeight());
+        graphics.fillOval(newX, newY, this.getWidth(), this.getHeight());
     }
 
     @Override

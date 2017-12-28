@@ -27,11 +27,11 @@ public class Field extends JPanel {
 
     public void paint(Graphics g){
         g.setColor(Color.BLACK);
-        g.fillRect(0, 0, 500, 500);
-
-
-        for (GameObject object : view.getGameObjects().getAll()){
-            object.draw(g);
+        g.fillRect(0, 0, 500 ,500);
+        if(view.getGameObjects()==null)
+            return;
+        for (GameObject gameObject: view.getGameObjects().getAll()) {
+            gameObject.draw(g);
         }
     }
 
