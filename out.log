@@ -1,0 +1,1698 @@
+2017-12-28 16:07:58 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2017-12-28 16:07:58 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2017-12-28 16:07:58 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2017-12-28 16:07:59 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:07:59 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:07:59 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2017-12-28 16:07:59 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2017-12-28 16:07:59 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2017-12-28 16:07:59 INFO  ApacheHttpClient.login(213) - responseCode200
+2017-12-28 16:07:59 INFO  ApacheHttpClient.login(244) - JSESSIONID=C012C179C21C2BB7EF88DD1F254F9294
+2017-12-28 16:07:59 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2017-12-28 16:08:00 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2017-12-28 16:08:00 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2017-12-28 16:08:00 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2017-12-28 16:08:02 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:08:02 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:08:02 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:08:02 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:08:04 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:08:04 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:08:05 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:08:38 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:08:39 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:08:39 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 16:08:44 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2017-12-28 16:08:45 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 16:09:01 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:09:44 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:09:44 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2017-12-28 16:09:56 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2017-12-28 16:10:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:10:01 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2017-12-28 16:10:03 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:10:03 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:10:03 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:10:03 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:10:04 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:11:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:12:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:13:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:14:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:15:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:16:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:17:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:17:50 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:17:51 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 16:17:52 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:17:53 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2017-12-28 16:18:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:18:52 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:18:52 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 16:18:53 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:18:55 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2017-12-28 16:19:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:19:42 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:19:43 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:19:43 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 16:19:46 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2017-12-28 16:19:46 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 16:19:48 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:19:48 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2017-12-28 16:19:51 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2017-12-28 16:19:54 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:19:54 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:19:54 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:19:54 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:19:55 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:20:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:21:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:22:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:23:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:24:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:25:01 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:26:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:27:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:28:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:29:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:30:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:31:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:32:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:33:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:34:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:35:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:36:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:37:02 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:38:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:38:01 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:38:02 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 16:38:02 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:38:05 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2017-12-28 16:39:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:39:51 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:39:52 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 16:39:52 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:39:55 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2017-12-28 16:39:55 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 16:39:58 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:39:58 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2017-12-28 16:40:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:40:02 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2017-12-28 16:40:05 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:40:05 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:40:05 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:40:05 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:40:06 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:40:06 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2017-12-28 16:40:20 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:40:20 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:40:20 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:40:20 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:40:21 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:40:22 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:40:22 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:41:01 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:42:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:42:56 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:42:56 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:42:57 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 16:42:57 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 16:42:57 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 16:43:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:44:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:45:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:46:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:47:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:48:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:49:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:50:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:51:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:52:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:53:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:54:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:55:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:56:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:57:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:58:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 16:59:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:00:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:01:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:02:01 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:03:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:04:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:05:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:05:32 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 17:05:32 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 17:06:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:07:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:08:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:09:01 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:10:01 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:11:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:12:02 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:13:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:14:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:15:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:16:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:17:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:18:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:19:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:20:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:20:35 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 17:20:35 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 17:20:35 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 17:20:36 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 17:20:37 INFO  ApacheHttpClient.completed(27) - responseCode = 400
+2017-12-28 17:20:37 WARN  TaskCompleted.run(66) - Задача "Sokoban (15)" уже решена
+2017-12-28 17:20:43 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 17:20:43 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2017-12-28 17:20:47 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2017-12-28 17:20:49 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 17:20:49 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 17:20:49 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 17:20:49 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 17:20:49 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 17:20:49 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2017-12-28 17:20:54 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 17:20:54 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 17:20:54 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 17:20:54 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 17:20:55 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 17:21:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:21:05 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 17:21:06 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 17:21:06 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 17:21:08 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2017-12-28 17:21:08 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 17:21:10 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 17:21:10 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2017-12-28 17:21:13 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2017-12-28 17:21:16 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 17:21:16 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 17:21:16 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-28 17:21:16 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-28 17:21:17 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 17:21:51 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 17:21:52 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 17:21:53 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 17:21:54 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2017-12-28 17:21:55 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-28 17:21:58 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-28 17:21:58 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2017-12-28 17:22:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:23:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:24:01 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:25:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:26:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:27:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:28:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:29:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:30:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:31:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:32:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:33:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:34:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:35:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:36:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:38:27 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:38:27 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:39:01 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:40:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:41:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:42:01 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:43:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:44:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:45:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:46:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:47:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:48:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:49:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:50:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:51:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:52:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:53:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:54:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:55:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:56:02 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 17:57:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:34 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:35 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-28 23:57:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:09 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:40:10 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2017-12-29 09:41:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 09:42:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 09:43:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 09:44:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 09:45:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 09:46:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 09:47:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 09:48:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 09:49:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 09:50:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 09:51:00 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 09:51:01 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2017-12-29 09:51:02 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 09:51:02 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 09:51:02 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 09:51:02 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 09:51:02 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 11:47:48 ERROR StartupManagerImpl.error(130) - Sorry but parent: Project (Disposed) fx-services has already been disposed (see the cause for stacktrace) so the child: com.intellij.openapi.fileEditor.impl.DockableEditorContainerFactory@23511b6d will never be disposed
+com.intellij.util.IncorrectOperationException: Sorry but parent: Project (Disposed) fx-services has already been disposed (see the cause for stacktrace) so the child: com.intellij.openapi.fileEditor.impl.DockableEditorContainerFactory@23511b6d will never be disposed
+	at com.intellij.openapi.util.objectTree.ObjectTree.register(ObjectTree.java:70)
+	at com.intellij.openapi.util.Disposer.register(Disposer.java:97)
+	at com.intellij.openapi.util.Disposer.register(Disposer.java:93)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.initDockableContentFactory(FileEditorManagerImpl.java:221)
+	at com.intellij.openapi.fileEditor.impl.OpenFilesActivity.runActivity(OpenFilesActivity.java:36)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.b(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.c(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(145) - JDK: 1.8.0_152-release
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(146) - VM: OpenJDK 64-Bit Server VM
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(147) - Vendor: JetBrains s.r.o
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(148) - OS: Windows 7
+2017-12-29 11:47:48 ERROR StartupManagerImpl.error(130) - Already disposed: Project (Disposed) fx-services
+java.lang.AssertionError: Already disposed: Project (Disposed) fx-services
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getComponent(ComponentManagerImpl.java:164)
+	at com.intellij.openapi.wm.ToolWindowManager.getInstance(ToolWindowManager.java:37)
+	at com.intellij.openapi.wm.ex.ToolWindowManagerEx.getInstanceEx(ToolWindowManagerEx.java:35)
+	at com.intellij.openapi.wm.impl.ToolWindowManagerImpl$InitToolWindowsActivity.runActivity(ToolWindowManagerImpl.java:2471)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.b(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.c(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(145) - JDK: 1.8.0_152-release
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(146) - VM: OpenJDK 64-Bit Server VM
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(147) - Vendor: JetBrains s.r.o
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(148) - OS: Windows 7
+2017-12-29 11:47:48 ERROR StartupManagerImpl.error(130) - Already disposed: Project (Disposed) fx-services
+java.lang.AssertionError: Already disposed: Project (Disposed) fx-services
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:257)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:56)
+	at com.intellij.openapi.components.ServiceManager.doGetService(ServiceManager.java:48)
+	at com.intellij.openapi.components.ServiceManager.getService(ServiceManager.java:43)
+	at com.intellij.execution.startup.ProjectStartupTaskManager.getInstance(ProjectStartupTaskManager.java:41)
+	at com.intellij.execution.startup.ProjectStartupRunner.runActivity(ProjectStartupRunner.java:46)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.b(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.c(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(145) - JDK: 1.8.0_152-release
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(146) - VM: OpenJDK 64-Bit Server VM
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(147) - Vendor: JetBrains s.r.o
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(148) - OS: Windows 7
+2017-12-29 11:47:48 ERROR StartupManagerImpl.error(130) - Already disposed: Project (Disposed) fx-services
+java.lang.AssertionError: Already disposed: Project (Disposed) fx-services
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:257)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:56)
+	at com.intellij.openapi.components.ServiceManager.doGetService(ServiceManager.java:48)
+	at com.intellij.openapi.components.ServiceManager.getService(ServiceManager.java:43)
+	at com.intellij.externalDependencies.ExternalDependenciesManager.getInstance(ExternalDependenciesManager.java:32)
+	at com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity.runActivity(CheckRequiredPluginsActivity.java:51)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.b(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.c(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(145) - JDK: 1.8.0_152-release
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(146) - VM: OpenJDK 64-Bit Server VM
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(147) - Vendor: JetBrains s.r.o
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(148) - OS: Windows 7
+2017-12-29 11:47:48 ERROR StartupManagerImpl.error(130) - Already disposed
+java.lang.AssertionError: Already disposed
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getMessageBus(ComponentManagerImpl.java:131)
+	at com.intellij.jarRepository.RepositoryLibrarySynchronizer.runActivity(RepositoryLibrarySynchronizer.java:168)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.b(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.c(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(145) - JDK: 1.8.0_152-release
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(146) - VM: OpenJDK 64-Bit Server VM
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(147) - Vendor: JetBrains s.r.o
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(148) - OS: Windows 7
+2017-12-29 11:47:48 ERROR StartupManagerImpl.error(130) - Already disposed
+java.lang.AssertionError: Already disposed
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getMessageBus(ComponentManagerImpl.java:131)
+	at org.editorconfig.plugincomponents.ConfigProjectComponent.runActivity(ConfigProjectComponent.java:33)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.b(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.c(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(145) - JDK: 1.8.0_152-release
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(146) - VM: OpenJDK 64-Bit Server VM
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(147) - Vendor: JetBrains s.r.o
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(148) - OS: Windows 7
+2017-12-29 11:47:48 ERROR StartupManagerImpl.error(130) - Already disposed: Project (Disposed) fx-services
+java.lang.AssertionError: Already disposed: Project (Disposed) fx-services
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:257)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:56)
+	at com.intellij.openapi.components.ServiceManager.doGetService(ServiceManager.java:48)
+	at com.intellij.openapi.components.ServiceManager.getService(ServiceManager.java:43)
+	at com.intellij.javascript.nodejs.library.NodeModulesDirectoryManager.getInstance(NodeModulesDirectoryManager.java:167)
+	at com.intellij.lang.javascript.buildTools.base.JsbtStartupActivity.runActivity(JsbtStartupActivity.java:27)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.b(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.c(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(145) - JDK: 1.8.0_152-release
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(146) - VM: OpenJDK 64-Bit Server VM
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(147) - Vendor: JetBrains s.r.o
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(148) - OS: Windows 7
+2017-12-29 11:47:48 ERROR StartupManagerImpl.error(130) - Already disposed: Project (Disposed) fx-services
+java.lang.AssertionError: Already disposed: Project (Disposed) fx-services
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getComponent(ComponentManagerImpl.java:164)
+	at com.intellij.xdebugger.XDebuggerManager.getInstance(XDebuggerManager.java:40)
+	at com.intellij.javascript.debugger.breakpoints.JavaScriptBreakpointListener.runActivity(JavaScriptBreakpointListener.java:31)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.b(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.c(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(145) - JDK: 1.8.0_152-release
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(146) - VM: OpenJDK 64-Bit Server VM
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(147) - Vendor: JetBrains s.r.o
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(148) - OS: Windows 7
+2017-12-29 11:47:48 ERROR StartupManagerImpl.error(130) - Already disposed: Project (Disposed) fx-services
+java.lang.AssertionError: Already disposed: Project (Disposed) fx-services
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:257)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:56)
+	at com.intellij.openapi.components.ServiceManager.doGetService(ServiceManager.java:48)
+	at com.intellij.openapi.components.ServiceManager.getService(ServiceManager.java:43)
+	at com.intellij.openapi.startup.StartupManager.getInstance(StartupManager.java:34)
+	at com.intellij.plugins.jboss.arquillian.libraries.ArquillianLibrarySynchronizer.runActivity(ArquillianLibrarySynchronizer.java:20)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.b(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.c(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(145) - JDK: 1.8.0_152-release
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(146) - VM: OpenJDK 64-Bit Server VM
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(147) - Vendor: JetBrains s.r.o
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(148) - OS: Windows 7
+2017-12-29 11:47:48 ERROR StartupManagerImpl.error(130) - Already disposed: Project (Disposed) fx-services
+java.lang.AssertionError: Already disposed: Project (Disposed) fx-services
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getComponent(ComponentManagerImpl.java:164)
+	at org.jetbrains.idea.maven.project.MavenProjectsManager.getInstance(MavenProjectsManager.java:127)
+	at org.jetbrains.idea.maven.utils.MavenRehighlighter$MavenRehighlighterPostStartupActivity.runActivity(MavenRehighlighter.java:56)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.b(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.c(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(145) - JDK: 1.8.0_152-release
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(146) - VM: OpenJDK 64-Bit Server VM
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(147) - Vendor: JetBrains s.r.o
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(148) - OS: Windows 7
+2017-12-29 11:47:48 ERROR StartupManagerImpl.error(130) - Already disposed: Project (Disposed) fx-services
+java.lang.AssertionError: Already disposed: Project (Disposed) fx-services
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:257)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:56)
+	at com.intellij.openapi.components.ServiceManager.doGetService(ServiceManager.java:48)
+	at com.intellij.openapi.components.ServiceManager.getService(ServiceManager.java:43)
+	at com.intellij.ide.util.PropertiesComponent.getInstance(PropertiesComponent.java:82)
+	at com.intellij.lang.aspectj.setup.AjPostStartupActivity.runActivity(AjPostStartupActivity.java:49)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.b(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.c(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(145) - JDK: 1.8.0_152-release
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(146) - VM: OpenJDK 64-Bit Server VM
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(147) - Vendor: JetBrains s.r.o
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(148) - OS: Windows 7
+2017-12-29 11:47:48 ERROR StartupManagerImpl.error(130) - Already disposed: Project (Disposed) fx-services
+java.lang.AssertionError: Already disposed: Project (Disposed) fx-services
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:257)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.getPicoContainer(ComponentManagerImpl.java:56)
+	at com.intellij.openapi.components.ServiceManager.doGetService(ServiceManager.java:48)
+	at com.intellij.openapi.components.ServiceManager.getService(ServiceManager.java:43)
+	at com.intellij.facet.ProjectFacetManager.getInstance(ProjectFacetManager.java:32)
+	at com.intellij.appengine.converter.MigrateToCloudToolsNotification.runActivity(MigrateToCloudToolsNotification.java:38)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.b(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.a(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.c(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.a(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(145) - JDK: 1.8.0_152-release
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(146) - VM: OpenJDK 64-Bit Server VM
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(147) - Vendor: JetBrains s.r.o
+2017-12-29 11:47:48 ERROR StartupManagerImpl.c(148) - OS: Windows 7
+2018-01-17 15:40:51 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-01-17 15:40:51 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-01-17 15:40:51 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-01-17 15:40:52 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-17 15:40:52 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-17 15:40:53 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-01-17 15:40:53 INFO  ApacheHttpClient.login(213) - responseCode200
+2018-01-17 15:40:53 INFO  ApacheHttpClient.login(244) - JSESSIONID=19531FD4150FCC1597C3D8A3E347B21A
+2018-01-17 15:40:53 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-01-17 15:40:53 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-01-17 15:40:53 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-01-17 15:40:53 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-01-17 15:41:28 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2018-01-17 15:41:28 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-17 15:50:57 ERROR GitHandler.error(130) - Time out while waiting for cancellation of [git git.exe -c core.quotepath=false -c log.showSignature=false log --pretty=format:%x01%x01%H%x02%P%x02%ct%x02%an%x02%ae%x02%d%x03%x03 --encoding=UTF-8 --decorate=full HEAD --branches --remotes --tags "--grep=Merge remote" --fixed-strings --regexp-ignore-case --].
+Destroying process manually
+java.lang.Throwable: Time out while waiting for cancellation of [git git.exe -c core.quotepath=false -c log.showSignature=false log --pretty=format:%x01%x01%H%x02%P%x02%ct%x02%an%x02%ae%x02%d%x03%x03 --encoding=UTF-8 --decorate=full HEAD --branches --remotes --tags "--grep=Merge remote" --fixed-strings --regexp-ignore-case --].
+Destroying process manually
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:136)
+	at git4idea.commands.GitTextHandler.waitForProcess(GitTextHandler.java:144)
+	at git4idea.commands.GitHandler.waitFor(GitHandler.java:642)
+	at git4idea.commands.GitHandler.runInCurrentThread(GitHandler.java:756)
+	at git4idea.history.GitLogUtil.readTimedCommits(GitLogUtil.java:139)
+	at git4idea.log.GitLogProvider.getCommitsMatchingFilter(GitLogProvider.java:523)
+	at git4idea.log.GitBekParentFixer.getWrongCommits(GitBekParentFixer.java:58)
+	at git4idea.log.GitBekParentFixer.prepare(GitBekParentFixer.java:45)
+	at git4idea.log.GitLogProvider.readAllHashes(GitLogProvider.java:319)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$MyRefreshTask$1.each(VcsLogRefresherImpl.java:350)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$ProviderIterator.iterate(VcsLogRefresherImpl.java:388)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$MyRefreshTask.a(VcsLogRefresherImpl.java:356)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$MyRefreshTask.b(VcsLogRefresherImpl.java:335)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$MyRefreshTask.a(VcsLogRefresherImpl.java:260)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$MyRefreshTask.run(VcsLogRefresherImpl.java:218)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:165)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-01-17 15:50:57 ERROR GitHandler.c(138) - IntelliJ IDEA 2017.3.1  Build #IU-173.3942.27
+2018-01-17 15:50:57 ERROR GitHandler.c(145) - JDK: 1.8.0_152-release
+2018-01-17 15:50:57 ERROR GitHandler.c(146) - VM: OpenJDK 64-Bit Server VM
+2018-01-17 15:50:57 ERROR GitHandler.c(147) - Vendor: JetBrains s.r.o
+2018-01-17 15:50:57 ERROR GitHandler.c(148) - OS: Windows 7
+2018-01-17 15:50:57 ERROR GitHandler.c(154) - Last Action: EditorCopy
+2018-01-17 15:57:08 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-01-17 15:57:09 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-01-17 15:57:09 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-01-17 15:57:09 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-01-17 15:57:09 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
